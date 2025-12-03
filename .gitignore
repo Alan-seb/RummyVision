@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# iOS
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Logs
+*.log
+logs/
+
+# Templates (if they contain sensitive data)
+# Uncomment if templates should not be committed
+# server/templates/
+
+# Test images
+test_images/
+*.jpg
+*.jpeg
+*.png
+!server/templates/**/*.jpg
+!server/templates/**/*.jpeg
+!server/templates/**/*.png
+
