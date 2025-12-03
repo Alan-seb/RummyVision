@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Rummy Assistant - Backend Setup Script
-# This script sets up the Python environment and installs dependencies
+# This script slets you setup python packages and create a virtual environment
 
 set -e  # Exit on error
 
